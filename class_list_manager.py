@@ -7,7 +7,11 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 
 # ===== Each student adds her function BELOW this line =====
 
-
+# Written by: Majd Al-Otaibi (task 1)
+def count_names(names):
+    return len(names)
+print("Class list:", names)
+print("Number of names:", count_names(names))
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
