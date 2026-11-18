@@ -12,9 +12,9 @@ def count_names(names):
 
 
 def main():
-  print("Welcome to the Class List Manager!")
-  print("Class list:", names)
-  print("Number of names:", count_names(names))
+    print("Welcome to the Class List Manager!")
+    print("Class list:", names)
+    print("Number of names:", count_names(names))
 
 
 main()
