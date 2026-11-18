@@ -10,11 +10,19 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 def count_names(names):
     return len(names)
 
+# Written by: Jana Alshamrani (Task 4)
+def remove_duplicates(names):
+    new_list = []
 
+    for name in names:
+        if name not in new_list:
+            new_list.append(name)
+
+    return new_list
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
     print("Number of names:", count_names(names))
-
+    print("Names without duplicates:", remove_duplicates(names))
 
 main()
