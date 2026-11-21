@@ -10,6 +10,13 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 def count_names(names):
     return len(names)
 
+# Written by: Joud Bin-Alsheikh(Task 3)
+def search_name(names, name):
+    if name in names:
+        return True
+    else:
+        return False
+
 # Written by: Jana Alshamrani (Task 4)
 def remove_duplicates(names):
     new_list = []
